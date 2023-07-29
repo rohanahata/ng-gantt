@@ -121,8 +121,8 @@ export class DemoComponent implements OnInit {
       vDebug: this.vDebug === 'true',
       vEditable: this.vEditable === 'true',
       vUseSort: this.vUseSort === 'true',
-      vFormatArr: ['Day', 'Week', 'Month', 'Quarter'],
-      vFormat: 'day'
+      vFormatArr: ['Hour', 'Day', 'Week', 'Month', 'Quarter'],
+      vFormat: 'hour'
     };
     this.editor.setOptions(this.editorOptions);
     // this.editorOptions.onChange = this.change.bind(this);
